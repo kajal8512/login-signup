@@ -1,0 +1,51 @@
+.form{
+    height: 27rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+}
+
+h1, .icon{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+h1{
+    margin-bottom: 1rem;
+}
+
+.inputContainer{
+    width: 80%;
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid #878484;
+    margin-top: 2.7rem;
+}
+
+.errorMsg{
+    margin-top: 2px;
+}
+
+
+.errorMessage{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.signUpButton{
+    width: 90%;
+    height: 2rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: var(--white-color);
+    cursor: pointer;
+    margin-top: 2.5rem;
+}
+
+.signUpButton:hover{
+    background-color: var(--secondary-color);
+}
